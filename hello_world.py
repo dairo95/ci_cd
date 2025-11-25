@@ -13,7 +13,7 @@ def generate_html(message):
                 {0}<br>
             </div>
         </body>
-        </html>""".format(message)
+        </html>""".format(message)  # noqa: E501
     return html
 
 
